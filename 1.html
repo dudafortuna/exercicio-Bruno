@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+</head>
+<body>
+    <script>
+        let Carol = {
+            nome: 'Carol Fortuna',
+            matricula: 123456,
+            aprovado: true,
+        }
+        console.table(Carol)
+  
+
+
+
+
+
+
+    let bibica = {
+        nome: 'bibica'
+    }
+    console.log(bibica.nome)
+
+
+
+
+
+
+
+
+    let nome1 = prompt("Digite o nome da primeira pessoa:");
+    let idade1 = parseInt(prompt("Digite o nome da segunda pessoa:"));
+
+    let nome2 = prompt("Digite o nome daa segunda pessoa:");
+    let idade2 = parseInt(prompt("Digite a idade da segunda pessoa:"));
+
+    if (idade1 > idade2) {
+        console.log(nome1 + " é mais velho que " + nome2);
+    }else if (idade2 > idade1) {
+            console.log(nome2 + " é mais velho que " + nome1);
+    }else {
+                console.log(nome1 + " e " + nome2 + " tem a mesma idade ");
+            }
+
+         
+            
+            let nome1 = prompt( " Digite o nome do primeiro funcionario:");
+            let salario1 = parseFloat(prompt(" Digite o salario do primeiro funcionario"));
+
+            let nome2 = prompt( "Digite o nome do segundo funcionario:");
+            let salario2 = parseFloat(prompt("Digite O salario do segundo funcionario"));
+
+            let salarioMedio = (salario1 + salario2) / 2;
+
+            console.log(" O salario medio dos funcionarios é R$ " + salarioMedio.toFixed(2));
+
+
+            class Retangulo {
+                constructor(largura, altura) {
+                    this.largura = largura;
+                    this.altura = altura;
+
+                }
+
+                calculadorArea() {
+                    return this.largura * this.altura;
+                }
+                
+                calcularPerimetro() {
+                    return 2 * (this.largura - this.altura);
+
+                }
+
+                calcularDiagonal1() {
+                    return Math.sqtd(this.largura * this.largura + this.altura * this.altura);
+
+                }
+
+
+
+            }
+
+            let largura = parseFloat(prompt("Digite o nome do primeiro retngulo:));
+            let altura = parseFloat(prompt("Digite O nome do primeiro retngulo:"));  
+              
+
+        
+    
+    
+  </script>
+</body>
